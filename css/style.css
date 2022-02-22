@@ -4,22 +4,24 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
+/* header */
 ul li{
     display: inline-block;
 }
+
 nav{
     position: fixed;
     top: 50px;
     right: 0px;
     z-index: 1000;
-    
 }
+
 a{
-    height: 100px;
-    width: 100px;
     background-color: white;
     color: black;
     text-decoration: none;
@@ -27,10 +29,11 @@ a{
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
-    
     text-align: center;
-    
 }
+/* /header */
+
+/* hero */
 .container{
     height: 100vh;
     width: 100vw;
@@ -67,3 +70,4 @@ h2 {
     background-color: #FFFF00;
     color: #008001;
 }
+/* /hero */
