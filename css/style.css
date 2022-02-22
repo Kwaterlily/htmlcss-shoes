@@ -2,5 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    display: inline-block;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF0000;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+    transform-origin: center;
+       
+}
+
+h2 {
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+#hero-one{
+    color: #FFFF00;
+}
+
+#hero-two{
+    background-color: #008001;
+    color: #FFFF00;
+}
+
+#hero-three{
+    background-color: #FFFF00;
+    color: #008001;
 }
